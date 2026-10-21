@@ -32,8 +32,12 @@ export class GixiUtility {
     //For ex. 0.5/0.5 will move the anchor to the center of the sprite
     //and adjust the art to keep the sprite in the same position
     sprite.anchor.set(point.x, point.y);
-    const dx = -(sprite.parent.width * point.x);
-    const dy = -(sprite.parent.height * point.y);
+    const parent = sprite.parent;
+    if (!parent) {
+      throw new Error('Cannot adjust a sprite position before it has a parent');
+    }
+    const dx = -(parent.width * point.x);
+    const dy = -(parent.height * point.y);
     sprite.position.set(sprite.position.x + dx, sprite.position.y + dy);
   }
 
