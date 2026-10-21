@@ -9,7 +9,7 @@ This repo includes Html5 examples using [PixiJS](https://pixijs.com/) and [TypeS
 
 ### Live Demo
 
-* [samuelasherrivello-com-ai.github.io/pixi-jam-1](https://samuelasherrivello-com-ai.github.io/pixi-jam-1/) — run the `Release Live Demo` workflow to publish a fresh build.
+* [samuelasherrivello-com-ai.github.io/pixi-jam-1](https://samuelasherrivello-com-ai.github.io/pixi-jam-1/) (pending deployment) — run the `Release Live Demo` workflow to publish a fresh build.
 
 
 ### Build
