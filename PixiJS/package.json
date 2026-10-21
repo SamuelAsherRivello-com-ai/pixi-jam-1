@@ -7,7 +7,7 @@
     "http": "^0.0.1-security",
     "pixi-actions": "^1.1.11",
     "pixi-filters": "^6.0.4",
-    "pixi-viewport": "^5.0.3",
+    "pixi-viewport": "^6.0.3",
     "pixi.js": "^8.2.5",
     "socket.io": "^4.7.5",
     "socket.io-client": "^4.7.5",
@@ -82,6 +82,7 @@
     "webpack-dev-server": "^5.0.4"
   },
   "overrides": {
+    "argparse": "2.0.1",
     "fast-uri": "^3.1.2",
     "sockjs": {
       "uuid": "^11.1.1"
